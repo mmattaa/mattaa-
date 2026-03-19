@@ -1,8 +1,8 @@
 services:
   app:
-   image: gcc
+    image: gcc
     working_dir: /app
     volumes:
       - ./:/app
-    try: true
+    tty: true
     stdin_open: true
